@@ -9,5 +9,6 @@ public class FVCalc {
 		double futureValue = Double.parseDouble(currentValue)*(Math.pow((ratedouble/100) + 1, ndouble)); 
 		System.out.println("after " + n + " years, $" + currentValue + " saved at " + ratedouble + "% will yield $" + ((int) futureValue));
 		
+		
 	}
 }
