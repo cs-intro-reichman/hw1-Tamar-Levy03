@@ -7,6 +7,6 @@ public class Bill3 {
 		String name3 = args[2];
 		int sum = Integer.parseInt(args[3]);
 		double split = (double) sum;
-		System.out.println("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + Math.ceil(split/3) + " Shekels each");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + Math.ceil(split/3) + " Shekels each");
 	}
 }
